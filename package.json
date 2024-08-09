@@ -1,0 +1,20 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "crud operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mongodb"
+  },
+  "author": "Shubham",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2"
+  }
+}
