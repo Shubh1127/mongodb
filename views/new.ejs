@@ -7,9 +7,9 @@
 </head>
 <body>
     <h3>Write new Chat...</h3>
-    <form style="display: flex; flex-direction: column; width: 300px; gap: 10px;">
+    <form  method="post"  action="/chats" style="display: flex; flex-direction: column; width: 300px; gap: 10px;">
         <input type="text" placeholder="who are you?" name="from">
-        <textarea name="mssg">Write your message here...</textarea>
+        <textarea name="message" placeholder="Write your message here..."></textarea>
         <input type="text" placeholder="add reciever" name="to">
         <button>Create chat</button>
     </form>

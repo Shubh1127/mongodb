@@ -13,3 +13,6 @@
 body{
     margin-left: 20px;
 }
+.cr{
+    cursor: pointer;
+}
