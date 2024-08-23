@@ -17,37 +17,37 @@ let allChats=[
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you",
+    message:"hello",
     created_at:new Date(),
     },
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you2",
+    message:"greetings from shubham",
     created_at:new Date(),
     },
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you3",
+    message:"ok",
     created_at:new Date(),
     },
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you4",
+    message:"hi",
     created_at:new Date(),
     },
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you5",
+    message:"go",
     created_at:new Date(),
     },
     {
     from:"shubham",
     to:"diksha",
-    message:"i love you6",
+    message:"agaim",
     created_at:new Date(),
     },
 ]
