@@ -16,19 +16,19 @@ main()
 let allChats=[
     {
     from:"shubham",
-    to:"diksha",
+    to:"harsh",
     message:"hello",
     created_at:new Date(),
     },
     {
     from:"shubham",
-    to:"diksha",
+    to:"himanshu",
     message:"greetings from shubham",
     created_at:new Date(),
     },
     {
     from:"shubham",
-    to:"diksha",
+    to:"dushyant",
     message:"ok",
     created_at:new Date(),
     },
@@ -40,13 +40,13 @@ let allChats=[
     },
     {
     from:"shubham",
-    to:"diksha",
+    to:"sarthak",
     message:"go",
     created_at:new Date(),
     },
     {
     from:"shubham",
-    to:"diksha",
+    to:"tanush",
     message:"agaim",
     created_at:new Date(),
     },
