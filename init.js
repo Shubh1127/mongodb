@@ -34,7 +34,7 @@ let allChats=[
     },
     {
     from:"shubham",
-    to:"diksha",
+    to:"rohan",
     message:"hi",
     created_at:new Date(),
     },
