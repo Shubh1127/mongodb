@@ -1,10 +1,11 @@
 const express=require('express');
 const mongoose=require('mongoose')
-const UserSchema=require('./Model/UserSchema')
+const UserModel=require('./Model/UserSchema')
 const cors=require('cors')
 require('dotenv').config()
 
 const app=express();
+app.use(express.json())
 app.use(cors({origin:'*'}));
 const port=3000;
 const URL=process.env.MONGO_URL
@@ -24,12 +25,21 @@ Connect();
 app.post('/create',async(req,res)=>{
     const {name,age,year}=req.body;
     try{
-        const New=new UserSchema(name,age,year);
-        New.save();
+        const New=new UserModel({name,age,year});
+        await New.save();
         res.status(201).json({message:"Content saved"})
     }catch(e){
          res.status(500).json({
             message:"Error saving content"
         })
+    }
+})
+
+app.get('/age',async (req,res)=>{
+    try{
+        let res= await UserModel.find({key:age>=20})
+        res.status(201).json({message:res});
+    }catch(e){
+        console.log(e)
     }
 })
